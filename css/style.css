@@ -23,4 +23,33 @@ body{
     font-size: 10em;
     color: #333;
     font-family: monospace;
+}@media(max-width:620px) {
+    .counter_container{
+        font-size: 8em;
+    }
+}
+@media(max-width:450px){
+    .counter_container{
+        font-size: 6em;
+    }
+}
+
+.buttons_container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: 2em auto;
+}
+@media(max-width:768px) {
+    .buttons_container{
+        width: 100%;
+    }
+}
+.buttons_container button{
+    background: transparent;
+    cursor: pointer;
+}
+.buttons_container button>img{
+    width: 50px;
 }
