@@ -1,0 +1,13 @@
+let second = document.getElementById("sec");
+let milliSecond = document.getElementById("mili");
+let minute = document.getElementById("min");
+const start = document.getElementById("start");
+const stp = document.getElementById("stop");
+const reset = document.getElementById("reset");
+const lap = document.getElementById("lap");
+const lapContainer = document.querySelector(".lap");
+const lapClear = document.getElementById("clear");
+let lapCounter = 0;
+let sec = 00;
+milli = 00;
+min = 00;
