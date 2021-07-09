@@ -53,3 +53,26 @@ body{
 .buttons_container button>img{
     width: 50px;
 }
+/* separator=== */
+
+.lap{
+    font-family: monospace;
+    list-style-type: none;
+    width: 60%;
+    margin: 5em auto;
+}
+@media(max-width:768px) {
+    .lap{
+        width: 90%;
+    }
+}
+.lap li{
+    color: #2A8C5B;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    border-bottom: 1px solid #2A8C5B;
+    padding: .1em 0;
+    display: flex;
+    justify-content: space-between;
+}
